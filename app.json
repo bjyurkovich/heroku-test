@@ -18,7 +18,7 @@
   "image": "heroku/node",
   "buildpacks": [
     {
-      "url": "https://ioteryfiles.nyc3.digitaloceanspaces.com/test.tgz"
+      "url": "https://github.com/bjyurkovich/heroku-test/tarball/master"
     }
   ],
   "environments": {
