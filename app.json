@@ -1,0 +1,31 @@
+{
+  "name": "Iotery",
+  "description": "My Test",
+  "keywords": [],
+  "success_url": "/welcome",
+  "scripts": {},
+  "env": {
+    "SECRET_TOKEN": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "image": "heroku/node",
+  "buildpacks": [
+    {
+      "url": "https://ioteryfiles.nyc3.digitaloceanspaces.com/test.tgz"
+    }
+  ],
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "bundle exec rake test"
+      }
+    }
+  }
+}
