@@ -1,8 +1,8 @@
 {
-  "name": "Iotery",
+  "name": "iotery",
   "description": "My Test",
   "keywords": [],
-  "success_url": "/welcome",
+  "success_url": "/hello",
   "scripts": {},
   "env": {
     "SECRET_TOKEN": {
